@@ -1,0 +1,288 @@
+*{
+padding-top: 0%;
+}
+
+.main{
+
+width: 100%;
+background: linear-gradient(to top,rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%),url(/img/bg/bg8.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+
+}
+
+
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto; 
+}
+.logo_img{
+  width: 100px;
+  height: 75px;
+  float: left;
+ 
+}
+.logo{
+ color: red;
+  font-size: small;
+  float: left;
+  padding-top: 20px;
+  width: 80px;
+}
+.menu{
+  width: 400px;
+  height: 70px;
+  float: left;
+  margin: auto;
+  color: rgb(245, 245, 245);
+  font-style: italic;
+}
+ul{
+  display: flex;
+}
+ul li{
+    list-style: none;
+      margin-top: 27px;
+      font-size: 20px;
+      margin-left: 62px;
+      cursor: pointer;;
+}
+ul li a {
+  text-decoration: none;
+  color: #000;
+  ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+  color: yellow;
+  /* border: solid; */
+  background-color: coral;
+}
+.social_icon a {
+  text-decoration: none;
+  color: #fff;
+  float: right;
+
+
+}
+
+.social_icon ion-icon {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.social_icon ion-icon:hover {
+  color: #ff7230
+}
+
+/* ===content==== */
+.content {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+
+}
+
+.content .par {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  /* margin: auto; */
+  /* margin-left: 30px; */
+
+}
+
+.content h1 {
+  font-family: 'Times New Roman';
+  font-family: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+  ;
+}
+
+.content .cn {
+  width: 160px;
+  height: 40px;
+  background-color: #ff7230;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 4s ease;
+  /* text-decoration: none; */
+}
+
+.content .cn a {
+  text-decoration: none;
+  color: #000;
+  transition: 3s ease;
+
+}
+
+.cn:hover {
+  background-color: #fff;
+
+}
+
+.content span {
+  color: #ff7230;
+  font-size: 65px;
+}
+.colo2_img{
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4)50%, rgba(0, 0, 0, 0.4)50%);
+  /* this is do for rigth side */
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+
+}
+
+.colo2_img h2 {
+  width: 220px;
+  font-family: sans-serif;
+  color: #ff7230;
+  text-decoration: none;
+  font-size: 22px;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: #ff7230;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+
+}
+
+.btnn:hover {
+  background-color: #fff;
+  color: #ff7230;
+}
+
+.btnn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.colom2{
+width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #000;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+.colom2.para {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  /* margin: auto; */
+  /* margin-left: 30px; */
+
+}
+
+.content h2 {
+  font-family: 'Times New Roman';
+  font-family: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+  ;
+}
+.btnn3 {
+  width: 240px;
+  height: 40px;
+  background: #30c4ff;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+
+}
+
+.btnn3:hover {
+  background-color: #fff;
+  color: #ff7230;
+}
+
+.btnn3 a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.testimonial{
+  display: flex;
+}
+
+
+
+/* mapping */
+.mapping{
+  background:cover;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 600px;
+}
+
+.gmap_iframe {
+  height: 600px !important;
+}
+
+/* ======footer===== */
+
+
+footer {
+  text-align: center;
+  padding: 2px;
+  background-color: rgb(26, 24, 24);
+  color: white;
+}
+footer a{
+  text-align: center;
+  padding: 2px;
+  background-color: rgb(26, 24, 24);
+  color: white;
+}
+
